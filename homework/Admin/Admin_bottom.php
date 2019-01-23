@@ -1,0 +1,1 @@
+﻿<div id="footer">Copyright &copy;<?php echo date('Y'); ?>&nbsp;&nbsp; All rights reserved</div>

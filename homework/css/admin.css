@@ -1,0 +1,745 @@
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+}
+input {
+	margin:0;
+	padding:0;
+}
+body {
+	width:100%;
+	margin:0 auto;
+	background:#007979;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+.clear {
+	clear:both;
+}
+
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_top.php css style
+* ----------------------------------------------------------------------
+*/
+#top {
+	width:80%;
+	margin:0 auto;
+	height:50px;
+	background:#007979;
+	padding:90px 50px 0px 50px;
+	margin-bottom:15px;
+}
+#top ul li {
+	list-style:none;
+	float:left;
+	display:block;
+	width:14%;
+	height:20px;
+	font-size:14px;
+	padding:10px 0px;
+	text-align:center;
+	border-top:#97CBFF solid 2px;
+	border-bottom:#97CBFF solid 2px;
+	position:relative;
+}
+#top ul li a {
+	text-decoration:none;
+	font-weight:bold;
+	color:#FDFFFF;
+}
+#top ul li:hover {
+	background:#66B3FF;
+}
+#top ul li:hover dl {
+	display:block;
+}
+#top ul li dl {
+	position:absolute;
+	left:10px;
+	top:45px;
+	width:500px;
+	display:none;
+}
+#top ul li dl dd {
+	height:20px;
+	width:80px;
+	background:#46A3FF;
+	padding:10px 0px;
+	display:block;
+	text-align:center;
+	border-right:#CCC dashed 1px;
+	float:left;
+}
+#top ul li dl dd:hover {
+	background:#06C;
+}
+#top ul li dl dd a {
+	font-size:13px;
+	font-weight:100;
+	color:#fff;
+}
+.btn {
+	width:50px;
+	height:30px;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the general #main css style
+* ----------------------------------------------------------------------
+*/
+#main                    /* #main for all pages */ {
+	width:80%;
+	height:550px;
+	margin-left:10%;
+	background:#ACD6FF;
+}
+#footer{
+	width:100%;
+	height:30px;
+	text-align:center;}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_main.php css style
+* ----------------------------------------------------------------------
+*/
+#notice {
+	position:absolute;
+	width:800px;
+	height:500px;
+	left:50%;
+	top:10%;
+	margin-left:-400px;
+}
+#notice h2 {
+	text-align:center;
+	margin-left:-100px;
+	font-size:20px;
+}
+#notice ol {
+	margin-left:50px;
+	margin-top:30px;
+	line-height:200%;
+	font-size:14px;
+}
+#notice ol li{
+	margin-top:10px;
+}
+#notice ol .nool{
+	list-style:none;
+	text-align:right;
+	padding-right:50px;
+}	
+
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_config.php css style
+* ----------------------------------------------------------------------
+*/
+#config_left             /* Admin_config.php left*/ {
+	width:35%;
+	height:550px;
+	border-right:#069 solid 2px;
+	float:left;
+}
+#config_right            /* Admin_config.php right*/ {
+	width:60%;
+	height:550px;
+	float:center;
+	
+}
+#config_title {
+	text-align:center;
+	padding-top:50px;
+	margin-left:20px;
+	
+}
+#config_right ul {
+	margin-left:20px;
+	margin-top:-200px;
+}
+#config_right ul li {
+	display:block;
+	width:300px;
+	height:50px;
+}
+input {
+	width:200px;
+	height:25px;
+}
+#config_info             /*Admin_config.php info*/ {
+	margin:15%;
+}
+#config_info ul          /*Admin_config.php infomation list*/ {
+	list-style:none;
+	line-height:150%;
+	font-size:14px;
+	
+}
+#checkbox_input {	/* Admin_config.php  radio and submit css style*/
+	width:20px;
+	height:20px;
+	
+}
+#submit_input {
+	width:50px;
+	height:30px;
+	margin-left:50%;
+	margin-top:0%;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_company.php css style
+* ----------------------------------------------------------------------
+*/
+#company_left             /* Admin_company.php left*/ {
+	width:20%;
+	height:550px;
+	background:#003D79;
+	border-right:#069 solid 2px;
+	float:left;
+}
+#company_left ul {
+	margin-left:30%;
+	margin-top:20%;
+	line-height:180%;
+}
+#company_left ul li {
+	width:100px;
+	height:50px;
+}
+#company_left ul li:hover {
+	background:#0066CC;
+}
+#company_left ul li a {
+	font-size:17px;
+	text-decoration:none;
+	color:#FDFFFF;
+}
+#company_left ul li a:active {
+	color:#0080FF;
+}
+#company_right            /* Admin_company.php right*/ {
+	width:79%;
+	height:30px;
+	text-align:center;
+	float:left;
+}
+#company_right h2 {
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:10px;
+	color:#003E79;
+}
+#textarea_input {
+	position:absolute;
+	left:-60%;
+	bottom:-30%
+}
+#submit_input2{
+	position:absolute;
+	left:80%;
+	top:120%;
+	color:#003E79;
+	width:50px;
+	height:30px;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_product.php and Admin_news.php css style
+* ----------------------------------------------------------------------
+*/
+
+#product_left             /* Admin_product.php left*/ {
+	width:20%;
+	height:550px;
+	background:#003D79;
+	border-right:#069 solid 2px;
+	float:left;
+}
+#product_right            /* Admin_product.php right*/ {
+	width:79%;
+	height:600px;
+	text-align:center;
+	float:left;
+}
+#product_left ul {
+	margin-left:30%;
+	margin-top:20%;
+	line-height:180%;
+}
+#product_left ul li {
+	width:100px;
+	height:50px;
+}
+#product_left ul li:hover {
+	background:#0066CC;
+}
+#product_left ul li a {
+	font-size:17px;
+	text-decoration:none;
+	color:#FDFFFF;
+}
+#product_left ul li a:active {
+	color:#000;
+}
+#product_right h2 {
+	/*text-align:center;*/
+	margin-top:30px;
+	margin-bottom:10px;
+	color:#000;
+}
+#produ_category {
+	margin-left:-250%;
+	margin-top:-120%;
+	list-style:none;
+}
+#produ_category li {
+	width:400px;
+	display:block;
+	line-height:150%;
+	margin-top:10px;
+	border:#0066CC dashed 1px;
+}
+#produ_category li h3 {
+	text-align:left;
+	display:block;
+	color:#003E79;
+}
+#produ_category li input {
+	width:120px;
+	max-height:30px;
+	margin-left:5px;
+}
+#produ_category li input.btn {
+	width:60px;
+	height:20px;
+}
+#produ_category li span {
+	display:block;
+	width:80px;
+	float:left;
+}
+#produ_category li h3 {
+	display:block;
+}
+#produ_category li dl dd input.btn {
+	width:40px;
+	height:30px;
+}
+#produ_category li dl dd {
+	margin-bottom:5px;
+}
+#produ_category li dl dd input {
+	width:100px;
+	max-height:20px;
+	margin-left:5px;
+}
+#produ_category li dl dd span {
+	display:block;
+	width:80px;
+}
+#product_ul_table {
+	margin-left:-50%;
+	margin-top:-20%;
+}
+#product_ul_table li {
+	display:block;
+	width:600px;
+	height:50px;
+	padding:1px 0px;
+	border-top:#0066CC solid 1px;
+	border-right:#0066CC solid 1px;
+	border-left:#0066CC solid 1px;
+}
+#product_ul_table li:hover {
+	background:#0C0;
+}
+#product_ul_table li dl dd {
+	float:left;
+	display:block;
+	width:90px;
+	height:50px;
+	text-align:left;
+	padding:2px 5px;
+}
+#product_ul_table .th_1 {
+	width:30px;
+	border-right:#0066CC dashed 1px;
+}
+#product_ul_table .th_1 input {
+	width:20px;
+	height:20px;
+}
+#product_ul_table .th_2 {
+	width:80px;
+	border-right:#0066CC dashed 1px;
+}
+#product_ul_table .th_3 {
+	width:100px;
+	border-right:#0066CC dashed 1px;
+}
+#product_ul_table .th_4 {
+	width:80px;
+	border-right:#0066CC dashed 1px;
+}
+#product_ul_table .th_5 {
+	width:160px;
+	border-right:#0066CC dashed 1px;
+}
+#product_ul_table .th_6 {
+	width:80px;
+}
+#product_ul_table .th_6 a {
+	margin-left:10px;
+	font-size:10px;
+	color:#000;
+	border:#0066CC solid 1px;
+	text-decoration:none;
+}
+#product_ul_table .th_6 a:hover {
+	background:#0066CC;
+	color:#eee;
+}
+#begin_li {
+	text-align:right;
+}
+#select_all {
+	float:left;
+}
+#select_box {
+	float:left;
+	width:80px;
+}
+#begin_li input {
+	width:100px;
+}
+#end_li {
+	border-bottom:#0066CC solid 1px;
+	padding:5px 0px;
+	text-align:center;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_product_add.php and Admin_news_add.php css style
+* ----------------------------------------------------------------------
+*/
+#product_add ul {
+	position:absolute;
+	margin-left:-25%;
+	margin-top:-10%;
+	font-size:13px;
+	color:#eee;
+	font-weight:bold;
+	list-style:none;
+}
+#product_add ul li {
+	margin-bottom:10px;
+}
+#product_add ul li span {
+	color:#FF6;
+	font-size:12px;
+}
+#product_add ul li input {
+	width:200px;
+	height:20px;
+	background:#FFC;
+}
+#product_add ul li .li_2 {
+	width:120px;
+	margin-right:10px;
+}
+#li_5 {
+	position:absolute;
+	padding:5px 0px 5px 50px;
+	left:85%;
+	bottom:-5%;
+}
+#li_6 {
+	position:absolute;
+	padding:0px 50px;
+	left:20%;
+}
+#product_add ul li .product_btn {
+	width:80px;
+	margin-left:10px;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_guestbook.php css style
+* ----------------------------------------------------------------------
+*/
+#guestbook {
+	margin-left:15%;
+	width:70%;
+	height:600px;
+	padding-top:50px;
+}
+#guestbook ul {
+	margin-left:50px;
+	border:#06F solid 1px;
+	list-style:none;
+	width:600px;
+}
+#guestbook ul li {
+	display:block;
+	width:600px;
+	height:200px;
+	border-top:#06F solid 1px;
+}
+#guestbook ul li dl dd {
+	float:left;
+	text-align:left;
+	font-size:12px;
+	height:100px;
+	padding:5px 0;
+	border-bottom:#06F solid 1px;
+	color:#06F;
+}
+#guestbook ul li p {
+	color:#06F;
+}
+#guestbook ul li span {
+	color:#555;
+	font-size:12px;
+	font-weight:bold;
+}
+.g_1 {
+	width:50px;
+	border-right:#3FF dashed 1px;
+}
+.g_2 {
+	width:100px;
+	border-right:#3FF dashed 1px;
+}
+.g_3 {
+	width:130px;
+	border-right:#3FF dashed 1px;
+}
+.g_4 {
+	width:190px;
+	border-right:#3FF dashed 1px;
+}
+.g_5 {
+	width:120px;
+}
+.g_5 a {
+	margin-left:15px;
+}
+.g_5 a:hover {
+	font-size:14px;
+	color:#F63;
+	font-weight:bold;
+}
+#guestbook ul li .g_6 {
+	display:block;
+	width:500px;
+	height:50px;
+}
+#guestbook ul #page_li {
+	height:25px;
+	text-align:center;
+}
+#guestbook #guestbook_detail_ul {
+	list-style:none;
+	line-height:100%;
+}
+#guestbook #guestbook_detail_ul li {
+	height:100px;
+	border-top::#CC0 solid 1px;
+}
+#guestbook #guestbook_detail_ul li dl dd {
+	float:left;
+	width:200px;
+	border:none;
+}
+#guestbook #guestbook_detail_ul #g_01 {
+	height:100px;
+}
+#guestbook #guestbook_detail_ul #g_02 {
+	padding:2px 0px 2px 20px;
+	height:25px;
+	width:580px;
+}
+#guestbook #guestbook_detail_ul #g_02 a {
+	display:block;
+	width:80px;
+	color:#00E;
+	font-weight:bold;
+	border:#CC0 solid 1px;
+	text-decoration:none;
+	text-align:center;
+	font-size:12px;
+	float:left;
+	margin-right:10px;
+}
+#guestbook #guestbook_detail_ul #g_02 a:hover {
+	border:#EEE dashed 1px;
+	font-size:15px;
+	color:#FC0;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Admin_administrator.php css style
+* ----------------------------------------------------------------------
+*/
+#admin {
+	padding-top:20px;
+}
+#admin_add {
+	margin-left:15%;
+	width:660px;
+	height:30px;
+	text-align:right;
+}
+#admin_add a {
+	border:#6F3 solid 1px;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+}
+#admin_add a:hover {
+	font-size:14px;
+	border:#00D dashed 1px;
+}
+#admin ul {
+	margin-left:15%;
+	border:#06F solid 1px;
+	list-style:none;
+	width:660px;
+}
+#admin ul li {
+	width:660px;
+	height:30px;
+	display:block;
+	border-top:#06F solid 1px;
+}
+#admin ul li #admin_th dd {
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+}
+#admin ul li dl dd {
+	float:left;
+	width:100px;
+	height:30px;
+	border-right:#0CF dashed 1px;
+	text-align:center;
+}
+#admin ul li dl dd a {
+	margin-right:50px;
+	font-weight:bold;
+}
+#admin ul li dl dd a:hover {
+	color:#3CF;
+}
+#admin ul li dl #admin_id {
+	width:50px;
+}
+#admin ul li dl #admin_email {
+	width:200px;
+}
+#admin ul li dl #admin_static {
+	width:200px;
+}
+#admin ul li dl #admin_op {
+	border:none;
+}
+#admin ol {
+	margin-left:-150%;
+	margin-top:-100%;
+	list-style:none;
+	line-height:150%;
+}
+#admin ol li {
+	width:500px;
+	height:30px;
+	margin-bottom:10px;
+}
+#admin ol li span {
+	width:80px;
+	display:block;
+	float:left;
+}
+#admin ol li input {
+	float:left;
+}
+#admin ol li .active {
+	width:30px;
+}
+#admin ol #btn_li {
+	padding-left:80px;
+}
+#admin ol #btn_li input {
+	margin-right:15px;
+}
+/*                            
+* ----------------------------------------------------------------------
+*  Here start the Index.php css style
+* ----------------------------------------------------------------------
+*/
+
+#login {
+	background:url(../images/admin/login.png)no-repeat;
+    width:100%;
+    height:100%;
+    background-size:100% 100%;
+    position:absolute;
+    filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/admin/login.png',sizingMethod='scale');
+}	
+
+form{
+	position:absolute;
+    width:130px;
+    background-color:rgba(10%,20%,30%,0);
+    margin-left:380px;
+    margin-top:107px;
+    padding:125px;
+}
+
+#login ul {
+	position:absolute; 
+	left:80%; 
+	top:30%; 
+	margin-left:-245px;
+	margin-top:-35px;
+}
+#login ul li {
+	width:280px;
+	height:23px;
+	margin-bottom:25px;
+}
+#login ul li span {
+	margin-top:4px;
+	margin-left:8px;
+	font-family: Times, TimesNR, 'New Century Schoolbook', Georgia, 'New York', serif;
+	width:70px;
+	font-size:16px;
+	font-weight:bold;
+	font-style:italic;
+	float:left;
+}
+#login ul #login_verify input {
+	width:55px;
+	height:25px;
+	margin-right:17px;
+}
+#login ul #login_verify img {
+	margin-top:4px;
+}
+#login ul #login_btn_li {
+	padding-left:80px;
+	width:220px;
+}
+#login ul li input {
+	float:left;
+	width:170px;
+	height:27px;
+}
+#login ul li .login_btn {
+	width:55px;
+	margin-right:20px;
+	margin-top:5px;
+}
